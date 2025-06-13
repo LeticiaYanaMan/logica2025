@@ -1,0 +1,26 @@
+#include <iostream>
+#include <iomanip>
+#include <string>
+
+int main() {
+    int A;
+    float B;
+    char C;
+    std::string D;
+
+    std::cin >> A;
+    std::cin >> B;
+    std::cin >> C;
+    std::cin.ignore(); // ignora o \n restante do último input
+    std::getline(std::cin, D); // lê a linha inteira, incluindo espaços
+
+    // Saída semelhante à printf do C
+    std::cout << A << std::fixed << std::setprecision(6) << B << C << D << std::endl;
+    std::cout << A << '\t' << std::fixed << std::setprecision(6) << B << '\t' << C << '\t' << D << std::endl;
+    std::cout << std::setw(10) << A
+              << std::setw(10) << std::fixed << std::setprecision(6) << B
+              << std::setw(10) << C
+              << std::setw(10) << D << std::endl;
+
+    return 0;
+}
