@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int DIVIDE(int a; int b) {
+    int d = a / b;
+    return d;
+    }
+
+int main() {
+    int N;
+    int a, b;
+    int d;
+    scanf("%d", &N);
+    for (int i; i <= N; i++) {
+        scanf("%d %d", &a, &b);
+        d = DIVIDE(a; b);
+        print("%d\n", d);
+    }
+    return 0;
+}
+    
