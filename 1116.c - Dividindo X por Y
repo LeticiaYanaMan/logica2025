@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int DIVIDE(int a, int b) {
+    int d = a / b;
+    return d;
+}
+
+int main() {
+    int N;
+    int a, b;
+    int d;
+    scanf("%d", &N);
+    for (int i = 0; i < N; i++) {
+        scanf("%d %d", &a, &b);
+        if (b == 0) {
+            printf("divisao impossivel\n");
+        }
+        else {
+            d = DIVIDE(a, b);
+            printf("%d\n", d);
+        }
+    }
+    return 0;
+}
+
+
+    
