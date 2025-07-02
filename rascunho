@@ -17,33 +17,6 @@ int fib(int x) {   //sequencia de fibonacci
     return fib[x];
 }
 
-int num_calls(int x) {
-    
-        
-
-int main () {
-    int N;
-    int x;
-    int f, num_calls, result;
-    scanf("%d", &N);
-    for (int i = 0; i < N; i++) {
-        scanf("%d", &x);
-        if (1 <= x && x <= 39) {
-            for (int j = 0; j < x; j++) {
-                f = fib(x);
-                num_calls = num_calls
-            result = 
-
-            printf("fib(%d) = %d calls = %d\n", x, num_calls, result);
-        }
-        else {
-            printf("ERROR\n");
-        }
-    }
-
-    return 0;
-}
-
 
 
 
