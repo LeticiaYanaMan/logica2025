@@ -1,7 +1,6 @@
 #include <stdio.h> 
 
-int main()
-{
+int main() {
       int N;
       scanf("%d", &N);
       int N1, R1, N2, R2, N3, R3, N4, R4, N5, R5, N6, N7;
