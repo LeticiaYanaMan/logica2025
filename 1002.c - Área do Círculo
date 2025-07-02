@@ -1,7 +1,6 @@
 #include <stdio.h>
  
-int main() 
-{
+int main() {
     double raio, area;
     const double n = 3.14159;
     scanf("%lf", &raio);
