@@ -35,5 +35,6 @@ int main() {
           printf("%d nota(s) de R$ 2,00\n", N6);
           printf("%d nota(s) de R$ 1,00\n", N7);
       }
+      
       return 0; 
 }
