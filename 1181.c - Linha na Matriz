@@ -1,7 +1,6 @@
 #include <stdio.h>
  
 int main() {
-    
     int L;
     char T;
     double matriz[12][12];
