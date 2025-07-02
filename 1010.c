@@ -7,5 +7,6 @@ int main() {
     scanf("%d %d %lf", &C2, &N2, &P2);
     SOMA = (N1 * P1) + (N2 * P2);
     printf("VALOR A PAGAR: R$ %.2lf\n", SOMA);
+ 
     return 0;
 }
