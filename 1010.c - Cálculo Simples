@@ -1,7 +1,6 @@
 #include <stdio.h>
  
-int main() 
-{
+int main() {
     int  C1, C2, N1, N2;
     double P1, P2, SOMA;
     scanf("%d %d %lf", &C1, &N1, &P1);
