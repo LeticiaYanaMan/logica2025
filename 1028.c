@@ -13,4 +13,8 @@ int main() {
     scanf("%d", &N);
     for (int i = 0; i < N; i++) {
         scanf("%d %d", &F1, &F2);
-        
+        int ans = mdc(F1,F2)
+        printf("%d\n", ans);
+    }
+    return 0;
+}
